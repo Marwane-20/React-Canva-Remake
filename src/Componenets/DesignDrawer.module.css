@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.designDrawer {
+ 
+  width: max-content;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0;
+}
+
+.toolsNav {
+  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.drawerPane {
+
+  position: relative;
+}
+
+.handle {
+position: absolute;
+  right: 73%;
+  top: 50%;
+
+
+}
+
+
+.buttonsNav {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+
+background-color: #06061b;
+ 
+}
+
+
+.highlight {
+  width: 72px;
+  height: 72px;
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  transition: transform 0.2s ease;
+}
+
+.highlightClosed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #efe7e7;
+  background-color: #a6a5c7;
+  font-size: 1rem;
+  width: 72px;
+  height: 72px;
+  line-height: 2rem;
+}
+button{
+  background-color: #080723;
+  border-color: #04041c;
+  color: rgb(179, 175, 175);
+  padding-right: 3%;
+
+}
+button:hover{
+color: rgb(236, 237, 243);
+}
+#text{
+  display: flex;
+  flex-direction: column;
+}

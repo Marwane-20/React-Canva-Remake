@@ -1,0 +1,15 @@
+.gif{
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+  height: 100%;
+    color: rgb(136, 82, 82);
+    background-color: rgb(130 146 202);
+}
+
+.image{
+    height: 50%;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}

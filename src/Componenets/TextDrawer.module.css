@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+.textDrawer {
+    width: 312px;
+    display: flex;
+    flex-direction: column;
+  height: 100%;
+    color: white;
+    background-color: rgb(130 146 202);
+  }
+  
+  .textDrawer > * {
+    margin-bottom: 8px;
+    margin: 0;
+  }
+  
+  .itemList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .h3{
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 3%;
+  }
+  .item {
+    background: hsla(0,0%,100%,.07);
+    border-radius: 4px;
+    width: 140px;
+    height: 145px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    margin-left: 3px;
+  }
+  
+  .item:hover {
+    background: linear-gradient(45deg,rgb(8, 8, 45),rgb(9, 15, 85));  
+  }
+  
+  
+  /* .item > svg {
+    fill: #c7d0d8;
+    width: 152px;
+    height: 152px;
+  } */
+  
+  .highlights {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .highlightItem {
+    background: hsla(0,0%,100%,.07);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+  
+
+  
+  .highlightItem > p {
+    padding: 16px;
+    line-height: 1;
+  }
+  
+  .heading {
+    font-weight: 800;
+    font-size: 28px;
+  }
+  
+  .subheading {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  .body {
+    font-weight: 300;
+    font-size: 12px;
+    margin: 0;
+  }
+  .all{
+    height: 100%;
+  }

@@ -1,0 +1,15 @@
+.App{
+    background-color: rgb(130 146 202);
+    height: 100%;
+    margin: 0;
+    width: 312px;
+}
+.up{
+    margin-left: 30px;
+    border-radius: 6%;
+    text-align: center;
+    background: linear-gradient(45deg,rgb(5, 3, 22),rgb(16, 16, 106));
+    margin-top: 3%;
+    WIDTH: 80%;
+    padding: 4%;
+}

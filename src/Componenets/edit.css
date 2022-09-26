@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    width: "100%";
+    height: "100%";
+    padding: 0;
+    margin: 0;
+
+}
+
+.corp{
+            width: "100%";
+            height: "100%";
+            display: "flex";
+            background-color: aliceblue;
+}
+header{
+    background: linear-gradient(45deg,rgb(151, 151, 211),rgb(18, 122, 157));
+    color: white;
+    display: flex;
+    justify-content: space-between;
+height: 38px;
+}
+
+.head{
+    display: flex;
+
+
+}
+.element{
+    margin-left: 6px;
+    color: white;
+    margin-top: 8px;
+
+}
+p{
+    margin-top: 5px;
+    margin-left: 3px;
+    margin-right: 10px;
+    padding-right: 5px;
+    font-family: "FreeMono, monospace";
+   
+    border-width: 3px;
+
+}
+.help{
+    margin-top: 7px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.butt{
+  background-color: white;
+  text-align: center;
+  width: 65px;
+ height: 30PX;
+  color: #6b79b8;
+    padding-bottom: 9px;
+    border-radius: 15%;
+margin-right: 4px;
+margin-top: 2px;
+border-color: blue;
+}
+
+
+#account
+{
+
+  
+    margin-left: 2%;
+    margin-top: 2%;
+    color: rgb(222, 186, 222);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    height: 25px;
+    width: 35px;
+    padding: 0;
+    border-right: solid;
+    background-color: #1e7da2;
+}
+.share{
+    color: blue;
+    background-color: white;
+    border-radius: 20%;
+    margin-right: 1%;
+    margin-left: 6%;
+    margin-top: 2%;
+height: 25px;
+width: 30px;
+padding: 3%;
+
+}
+
+
+
+.scene{
+ 
+        background: "White";
+        width: 50%;
+        height: 50vh;
+}
+
+
+
+
+
+
+
+.drop{
+  margin-top: 90px;
+    width: 70%;
+    height: 70vh;
+  display: flex;
+    margin-right: 30%;
+
+}
+.hand{
+    background: "blue";
+    width: "70%";
+    height: "70vh";
+    justify-content: center;
+}
+.resss{
+    display: flex;
+}
+.time{
+    color: rgb(27, 14, 14);
+    background-color: aquamarine;
+    border-color: aquamarine;
+    margin-left: 8px;
+    width: 40px;
+    text-align: center;
+    padding-bottom: 6%;
+    border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.colon{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+}
+
+
+
+
+.photo{
+    height: 10%;
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+main{
+    background-color: white;
+    display: flex;
+ 
+
+    width: 100%;
+
+   justify-content: space-between;
+
+}
+#btn{
+    border-radius: 100%;
+  
+    margin-left:5px;
+    margin-right:5px;
+   background-color: #3982ad;
+   font-size: 30px;
+   height: 64px;
+}
+#bsplay{
+    text-align: center;
+    margin-bottom: 6px;
+}
+#add{
+    padding: 20px;
+    cursor: pointer;
+    border-style: double;
+    border-color: black;
+  
+    border-radius: 30%;
+    color: white;
+    height: 75px;
+    background-color: aliceblue;
+    margin-left:5px;
+    margin-right:5px;
+ 
+}
+
+
+.play{
+    display: flex;
+    background-color: white;
+    margin-top: 4px;
+}
+.scene{
+ 
+ 
+    height: 20%;
+    background-color: white;
+}
+
+.show{
+    padding: 20px;
+    cursor: pointer;
+    border-style: double;
+    border-color: rgb(39, 83, 133);
+    /* padding-top: 10px; */
+    border-radius: 30%;
+    color: white;
+    height: 75px;
+    background-color: aliceblue;
+    margin-top: 5px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.end{
+    background-color: white;
+    display: flex;
+ 
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left:5px;
+    margin-right:5px;
+
+}
+
+
+
+
+#help{
+    border-left-style: solid;
+    margin-left: 6%;
+    padding-left: 3%;
+    MARGIN-RIGHT: 5%;
+    FONT-SIZE: 38PX;
+    BORDER-COLOR: #abafb3;
+}
+.zoom{
+    margin-right: 8px;
+    margin-top: 4px;
+    margin-left: 3px;
+    font-size: 32px;
+}
+.xml{
+    display: flex;
+    flex-direction: row;
+}
+.slider{
+    position: relative;
+}
+.resume{
+    display: flex;
+    background-color: aliceblue;
+}
+.temp{
+    width: 30px;
+}
