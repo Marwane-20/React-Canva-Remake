@@ -1,3 +1,6 @@
+![image](https://github.com/Marwane-20/React-Canva-Remake/assets/83011737/60174df6-01a7-44f2-b01b-1c10f3e421e4)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
